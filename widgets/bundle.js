@@ -264,7 +264,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _tabIndexItems_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabIndexItems.jsx */ "./frontend/tabIndexItems.jsx");
 
-
+ // class TabIndex extends React.Component {
+//   constructor(props) {
+//     super(props);
+//   }
+//
+//   toggleTab(e) {
+//
+//   }
+// }
 
 var TabIndex = function TabIndex(props) {
   debugger;
@@ -272,7 +280,7 @@ var TabIndex = function TabIndex(props) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabIndexItems_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], {
       tabInfo: tab
     }));
-  }), ";");
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TabIndex);
@@ -332,6 +340,9 @@ function (_React$Component) {
   }
 
   _createClass(Tabs, [{
+    key: "toggleTab",
+    value: function toggleTab(e) {}
+  }, {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tabindex_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], {

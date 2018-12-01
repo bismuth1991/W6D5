@@ -8,6 +8,10 @@ class Tabs extends React.Component {
     this.state = ({index: 0});
   }
 
+  toggleTab(e) {
+    
+  }
+
   render() {
     return (
       <div>
