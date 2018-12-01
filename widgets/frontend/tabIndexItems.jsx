@@ -1,11 +1,12 @@
 import React from 'react';
 
-const TabIndexItems = function ({ title, content }) {
+const TabIndexItems = function ( {tabInfo: {title, content}} ) {
+  debugger;
   return (
-    <li>
+    <div>
       <h1>{title}</h1>
       <p>{content}</p>
-    </li>
+    </div>
   );
 };
 
